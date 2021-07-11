@@ -1,0 +1,6 @@
+{
+  "transform": {
+    "testEnvironment": "jsdom",
+    "^.+\\.(t|j)sx?$": "@swc/jest"
+  }
+}
