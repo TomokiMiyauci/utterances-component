@@ -50,4 +50,27 @@ const putChildElement = <T extends HTMLElement, U extends HTMLElement>(
   return parent
 }
 
-export { createScriptElement, putChildElement }
+const hiddenElement = (el: HTMLElement): void => {
+  el.style.display = 'none'
+}
+const showElement = (el: HTMLElement): void => {
+  el.style.display = 'block'
+}
+
+const forEach = <T extends HTMLElement, U extends HTMLCollection>(
+  fn: (el: T, index: number, array: U) => void,
+  collection: U
+) => {
+  Array.prototype.forEach.call(collection, fn as never)
+}
+
+const hideOrShow = (el: HTMLElement, isShow: boolean) =>
+  isShow ? showElement(el) : hiddenElement(el)
+
+export {
+  createScriptElement,
+  putChildElement,
+  hiddenElement,
+  forEach,
+  hideOrShow
+}
