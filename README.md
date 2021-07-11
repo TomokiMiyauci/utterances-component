@@ -17,11 +17,11 @@
 
 </div>
 
+---
+
 Utterances is a lightweight comments widget built on GitHub issues, for blog comments, wiki pages and more.
 
 This project wrap it for modern frontend library such as React, Vue and Svelte.
-
----
 
 ## Documentation
 
