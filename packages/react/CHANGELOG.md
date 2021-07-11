@@ -1,3 +1,11 @@
+# [vutterances-react-component-v1.1.0-beta.1](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.0.0...utterances-react-component-v1.1.0-beta.1) (2021-07-11)
+
+## ✨ New Features
+- [`51c4d53`](https://github.com/TomokiMiyauci/utterances-component/commit/51c4d53)  (react) Add cache feature for dynamic switching color theme (Issues: [`#12`](https://github.com/TomokiMiyauci/utterances-component/issues/12))
+
+## 🐛 Bug Fixes
+- [`97027eb`](https://github.com/TomokiMiyauci/utterances-component/commit/97027eb)  (react) Fix dependent function bug
+
 # vutterances-react-component-v1.0.0 (2021-07-09)
 
 ## ✨ New Features
