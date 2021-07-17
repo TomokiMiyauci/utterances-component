@@ -1,0 +1,3 @@
+.balloon::after {
+  @apply border-solid border-transparent top-11px -left-16px border-w-8px absolute border-opacity-10 border-r-gray-400  pointer-events-none content block;
+}

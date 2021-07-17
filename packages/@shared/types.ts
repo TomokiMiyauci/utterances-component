@@ -1,4 +1,9 @@
-type UtterancesProps = Utterances
+type UtterancesProps<T = undefined> = Utterances & Partial<Loader<T>>
+
+type Loader<T> = {
+  Loader: T
+  delay: number
+}
 
 type Utterances = {
   repo: Repo

@@ -1,4 +1,4 @@
-import React, { FC, useRef, useEffect } from 'react'
+import React, { FC, useRef, useEffect, ReactNode } from 'react'
 import { UtterancesProps, Theme } from '@shared/types'
 import {
   createScriptElement,
@@ -6,22 +6,31 @@ import {
   forEach,
   hideOrShow
 } from '@shared/util'
+import { useLoader } from './hooks'
 
-const Utterances: FC<UtterancesProps> = ({
+const Utterances: FC<UtterancesProps<ReactNode>> = ({
   repo,
   label,
   theme,
   issueTerm,
-  issueNumber
+  issueNumber,
+  delay = 200,
+  Loader
 }) => {
   const ref = useRef<HTMLDivElement>(null)
   const cache = useRef<{ [k in Theme]?: number }>()
 
+  const [loaderState, { changeLoaderState, delayFn }] = useLoader(!Loader)
+
   useEffect(() => {
+    changeLoaderState(false)
+
     if (!ref.current) return
     const index = cache.current?.[theme]
     if (typeof index === 'number') {
       forEach((item, i) => hideOrShow(item, index === i), ref.current.children)
+      changeLoaderState(true)
+
       return
     }
 
@@ -38,11 +47,20 @@ const Utterances: FC<UtterancesProps> = ({
       issueNumber: issueNumber as never
     })
 
-    ref.current.appendChild(scriptEl)
-    forEach(hiddenElement, ref.current.children)
+    scriptEl.onload = () => {
+      changeLoaderState(true)
+    }
+
+    forEach(hiddenElement, ref.current!.children)
+    delayFn(() => ref.current!.appendChild(scriptEl), delay)
   }, [theme])
 
-  return <div ref={ref} />
+  return (
+    <>
+      {!loaderState && Loader}
+      <div ref={ref} />
+    </>
+  )
 }
 
 export default Utterances

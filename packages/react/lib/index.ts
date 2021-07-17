@@ -1,3 +1,6 @@
-import Utterances from './Utterances'
+import Utterances from '@/Utterances'
+import SkeltonLoader from '@/SkeltonLoader'
 
-export { Utterances }
+import 'virtual:windi.css'
+
+export { Utterances, SkeltonLoader }
