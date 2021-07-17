@@ -2,6 +2,8 @@ import React from 'react'
 import { render } from 'react-dom'
 import App from './app'
 
+import 'virtual:windi.css'
+
 render(
   <React.StrictMode>
     <App />
