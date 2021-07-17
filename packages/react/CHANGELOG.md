@@ -1,3 +1,8 @@
+# [vutterances-react-component-v1.1.0-beta.3](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.1.0-beta.2...utterances-react-component-v1.1.0-beta.3) (2021-07-17)
+
+## 🐛 Bug Fixes
+- [`327e157`](https://github.com/TomokiMiyauci/utterances-component/commit/327e157)  (react) Fix export path
+
 # [vutterances-react-component-v1.1.0-beta.2](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.1.0-beta.1...utterances-react-component-v1.1.0-beta.2) (2021-07-17)
 
 ## ✨ New Features
