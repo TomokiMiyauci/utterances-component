@@ -1,3 +1,8 @@
+# [vutterances-react-component-v1.1.0-beta.2](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.1.0-beta.1...utterances-react-component-v1.1.0-beta.2) (2021-07-17)
+
+## ✨ New Features
+- [`850b94f`](https://github.com/TomokiMiyauci/utterances-component/commit/850b94f)  (react) Add SkeltonLoader and delay loading feature
+
 # [vutterances-react-component-v1.1.0-beta.1](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.0.0...utterances-react-component-v1.1.0-beta.1) (2021-07-11)
 
 ## ✨ New Features
