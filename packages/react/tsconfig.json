@@ -18,6 +18,7 @@
     "jsx": "react",
     "baseUrl": ".",
     "paths": {
+      "@/*": ["lib/*"],
       "@shared/*": ["../@shared/*"]
     }
   },
