@@ -58,7 +58,11 @@ const Utterances: FC<UtterancesProps<ReactNode>> = ({
   return (
     <>
       {!loaderState && Loader}
-      <div ref={ref} />
+      <div
+        className="min-h-291px sm:min-h-269px"
+        style={{ display: !!Loader && !loaderState ? 'none' : 'block' }}
+        ref={ref}
+      />
     </>
   )
 }
