@@ -1,3 +1,8 @@
+# [vutterances-react-component-v1.1.0-beta.4](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.1.0-beta.3...utterances-react-component-v1.1.0-beta.4) (2021-07-21)
+
+## 🐛 Bug Fixes
+- [`5e68d56`](https://github.com/TomokiMiyauci/utterances-component/commit/5e68d56)  (react) Add min height for placeholder
+
 # [vutterances-react-component-v1.1.0-beta.3](https://github.com/TomokiMiyauci/utterances-component/compare/utterances-react-component-v1.1.0-beta.2...utterances-react-component-v1.1.0-beta.3) (2021-07-17)
 
 ## 🐛 Bug Fixes
