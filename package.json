@@ -12,14 +12,14 @@
     "release": "yarn workspaces run semantic-release"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "@storybook/addon-a11y": "^6.3.4",
     "@storybook/addon-actions": "^6.3.4",
     "@storybook/addon-essentials": "^6.3.4",
     "@storybook/addon-links": "^6.3.4",
     "@storybook/addon-storysource": "^6.3.4",
-    "@commitlint/cli": "^12.1.4",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
     "@swc/jest": "^0.1.2",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.0.0",
@@ -38,13 +38,13 @@
     "semantic-release-monorepo": "^7.0.5",
     "storybook": "^6.3.4",
     "storybook-builder-vite": "^0.0.12",
-    "typescript": "^4.3.5",
-    "vite": "^2.4.1",
-    "wsrun": "^5.2.4",
     "storybook-dark-mode": "^1.0.8",
     "typed-css-modules": "^0.7.0",
+    "typescript": "^4.3.5",
+    "utilitypes": "^1.0.0-beta.3",
+    "vite": "^2.4.1",
     "vite-plugin-windicss": "^1.2.4",
-    "utilitypes": "^1.0.0-beta.3"
+    "wsrun": "^5.2.4"
   },
   "author": {
     "name": "TomokiMiyauci",
