@@ -1105,10 +1105,10 @@
     "@vue/babel-plugin-jsx" "^1.0.6"
     hash-sum "^2.0.0"
 
-"@vitejs/plugin-vue@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.2.4.tgz#a7aa6e6a31c556a8b781de730316deeecf7f56f2"
-  integrity sha512-D/3H9plevPQGgQGwmV6eecvOnooLTecPR63HPffVVWPEhbfvmtYLWgznzs456NBb2DItiRTCIa1yWxvGqC+I8A==
+"@vitejs/plugin-vue@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.9.0.tgz#ae458a2eaac1d06efac8d71a4427d5d742466d72"
+  integrity sha512-TQB87f8baZsTZO/g7Az/dTCwV8eDxwkrP8hMl8HpwLJz/NKvmXtBqa7bYg8GKWNwqjy+pBRLdgiML+BI3HphOw==
 
 "@volar/code-gen@^0.25.28":
   version "0.25.28"
